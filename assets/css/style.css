@@ -1,0 +1,194 @@
+* {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    box-sizing: border-box;
+    overflow: none;
+    color: #777777;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+/* body{
+    background-image: url="./assets/images/dynamicstyle.png"
+} */
+/* header code */
+.sticky{
+    height: 100px;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc;
+    border-style: solid;
+    background: #ffffff;
+}
+.header{
+    width: 960px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+.navbut{
+    padding: 36px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    color: #ffffff;
+    background: #4aaaa5;
+    display: inline-block;
+}
+.navlink{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 40%;
+}
+h5{ 
+    font-size: 18px;
+    color: #cccccc;
+    word-spacing: 5px;
+}
+a{
+    text-decoration: none;
+}
+
+/* middle code */
+.wrapper{
+    height:700px;
+}
+.content{
+    position: relative;
+    top: 50px;
+    width: 960px;
+    height: 600px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dddddd;
+    background: #ffffff;
+    padding: 20px;
+    margin: auto;
+}
+h2{
+    position: absolute;
+    height: 50px;
+    width: 920px;
+    font-size: 30px;
+    color: #4aaaa5;
+    font-weight: bold;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc;
+    border-style: solid;
+    padding: 20px 20x 20px 0px;
+}
+.below{
+    position: absolute;
+    top: 80px;
+    width: 920px;
+    margin-top: 20px;
+    line-height: 150%;
+}
+    /* .About Me */
+        #facepic{
+            left: 20;
+            display: inline;
+        }
+        .aboutme{
+            position: absolute;
+            top: 30px;
+            left: 220px;
+            display: inline-block; 
+            width: 400px;
+            height: 220px;
+            font-size: 18px;
+        }
+    /* .Contact */
+        input{
+            width: 100%;
+        }
+        #message{
+            height: 200px;
+            width: 100%;
+            resize: none;
+            overflow: auto;
+        }
+        #submit {
+            width:100px;
+            height: 30px;
+            background-color: #4aaaa5;
+            color: #ffffff;
+            font-size: 18px;
+        }
+        #submit:hover{
+            color: yellow;
+        }
+    /* .Portfolio */
+        .portfolio{
+            display: inline-block;
+            position: relative;
+            width: 920px;
+            top: 15%;    
+        }
+        /* .imgbut code inspired by https://www.w3schools.com/howto/howto_css_button_on_image.asp */
+        .imgbut{
+            float: left;    
+            position: absolute;
+            width: 200px;
+            margin: auto;
+        }
+        .imgbut img{
+            width: 200px;
+            height: 200px;
+        }
+        .btn{
+            position: absolute;
+            bottom: 20%;
+            height: 40px;
+            width: 200px;
+            background-color: #4aaaa5;
+            color: #cccccc;
+            font-size: 18px;
+            font-family: 'Georgia', Times, Times New Roman, serif;
+        }
+            /* Gallery positioning */
+            #img1{
+                top:0px;
+                left:0px;
+            }
+            #img2{
+                top: 0px;
+                left: 250px;
+            }
+            #img3{
+                top:0px;
+                left: 500px;
+            }
+            #img4{
+                top:250px;
+                left:0px;
+            }
+            #img5{
+                top:250px;
+                left:250px;
+            }
+
+/* footer code */
+    .stickfoot{
+        height: 50px;
+        width: 100%;
+        text-align: center;
+        background: #666666; 
+        position: fixed;
+        bottom: 0px;
+        border-top-width: 8px;
+        border-top-color: #4aaaa5;
+        border-top-style: solid;
+    }
+    .copy{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 0%;
+    }
+
+    /* vertical-align hack
+position: relative;
+    top: 80%;
+    transform: translateY(-80%);
+    source: http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/ */

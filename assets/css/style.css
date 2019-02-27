@@ -218,15 +218,48 @@ position: relative;
 }
 
 @media screen and (max-width: 786px) {
+  body {
+    height: 1100px;
+  }
   .content {
     width: 640px;
+  }
+  #portcontent {
+    height: 850px;
   }
   .header {
     width: 640px;
   }
+  .portfolio {
+    top: 100px;
+    height: 750px;
+  }
+  #img1 {
+    top: 0px;
+    left: 0px;
+  }
+  #img2 {
+    top: 0px;
+    left: 250px;
+  }
+  #img3 {
+    top: 250px;
+    left: 0px;
+  }
+  #img4 {
+    top: 250px;
+    left: 250px;
+  }
+  #img5 {
+    top: 500px;
+    left: 0px;
+  }
 }
 
 @media screen and (max-width: 640px) {
+  body {
+    height: 1600px;
+  }
   .sticky {
     position: static;
     width: 100%;
@@ -244,6 +277,13 @@ position: relative;
   .content {
     width: 500px;
   }
+  #portcontent {
+    height: 1350px;
+  }
+  .portfolio {
+    top: 100px;
+    height: 1250px;
+  }
   #facepic {
     left: 20;
     display: block;
@@ -251,6 +291,26 @@ position: relative;
   .aboutme {
     position: relative;
     top: 30px;
+    left: 0px;
+  }
+  #img1 {
+    top: 0px;
+    left: 0px;
+  }
+  #img2 {
+    top: 250px;
+    left: 0px;
+  }
+  #img3 {
+    top: 500px;
+    left: 0px;
+  }
+  #img4 {
+    top: 750px;
+    left: 0px;
+  }
+  #img5 {
+    top: 1000px;
     left: 0px;
   }
 }

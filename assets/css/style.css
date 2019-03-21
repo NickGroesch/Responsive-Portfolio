@@ -180,6 +180,10 @@ input {
   top: 250px;
   left: 250px;
 }
+#img6 {
+  top: 250px;
+  left: 500px;
+}
 
 /* footer code */
 .stickfoot {
@@ -254,6 +258,10 @@ position: relative;
     top: 500px;
     left: 0px;
   }
+  #img6 {
+    top: 500px;
+    left: 250px;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -278,7 +286,7 @@ position: relative;
     width: 500px;
   }
   #portcontent {
-    height: 1350px;
+    height: 1600px;
   }
   .portfolio {
     top: 100px;
@@ -311,6 +319,10 @@ position: relative;
   }
   #img5 {
     top: 1000px;
+    left: 0px;
+  }
+  #img6 {
+    top: 1250px;
     left: 0px;
   }
 }
